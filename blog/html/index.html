@@ -1,77 +1,64 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <title> zoostar </title>		
 	
-	<head>
-		<title> 2조 </title>	
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Document</title>	
 		<style type="text/css">
-		
-			
-			#nav_menu ul {
-				list-style-type:none;
-				padding-left:0px;
-				background-color:#352f2fa6;
-				padding:50px 50px 50px 50px;
-				float:right;
+			.container {
+				max-width: 1000px;
+				min-height: 500px;
+				margin: auto;
 			}
-				#nav_menu ul li {
-					display:inline;
-					border-left: 1px solid #c0c0c0;
-					padding: 0px 10px 0px 10px;
-					margin: 5px 0px 5px 0px;
-					color:#ffffff;
-					font-size:9pt;
-				}		
-				#nav_menu ul li:first-child {
-					border-left: none;
-						}
-						#nav_menu a {
- 				text-decoration:none;
- 				color:#ffffff
-				}
-				#nav_menu a:hover {
- 				color:#D4F4FA;
-				 border-bottom:10px solid yellow;
-				}
-				h1{
-            font-size: 50px;
-            font-family: "Arial Rounded MT";
-				}
-			.shadow{
-            text-shadow: 5px 5px 3px #f00;
-        }
-				
+			.nav{
+					list-style: none; 
+					background-color: rgb(184, 93, 176); 
+					float:left; 
+					width:150px;
+					line-height: 40px;
+					text-align: center;
+					vertical-align: center;
+			}
+			.navLink { 
+				text-decoration:none;
+				color: white; 
+				display: block;
+				width: 150px; 
+				font-size: 15px; 
+				font-weight: bold;
+			}
+			.navLink:hover { 
+				color: black; 
+			}
 
+		</style>	
+</head>
+<body>
+    <nav style="height: 40px; max-width: 2000px; background-color:gray;">
+        <ul style="padding-left: 500px;">
+            <li class="nav"><a href="page1.html" class="navLink">page1</a></li>
+            <li class="nav"><a href="page2.html" class="navLink">page2</a></li>
+            <li class="nav"><a href="page3.html" class="navLink">page3</a></li>
+        </ul>
+           
+     </nav>
+     <h1> 백종원의 요리강의 교실 </h1>
+	        	<img src='../images/ppp.jpg'/>
+    <from>
+        <input type="text" id="interest" list="choices">
+        <datalist id="choices">
+            <option value="grammar" label="집"></option>
+            <option value="voca" label="가"></option>
+            <option value="speaking" label="고"></option>
+            <option value="listening" label="싶"></option>
+            <option value="news" label="다"></option>
+        </datalist>
 
-			</style>
-			
-		
-			<div id="nav_menu">
-			<ul>
-				<li><a href="page1.html">메뉴 1</li>
-				<li><a href="page2.html">메뉴 2</li>
-				<li><a href="page3.html">메뉴 3</li>
-			</ul>
-		</div>
-	
-	</head>
-	<body>
+    </from>
+      
 
-		<h1 class="shadow2"> 백종원의 요리강의 교실 </h1>
-		<img src='../images/ppp.jpg'/>
-		<from>
-			<input type="text" id="interest" list="choices">
-			<datalist id="choices">
-				<option value="grammar" label="집"></option>
-				<option value="voca" label="가"></option>
-				<option value="speaking" label="고"></option>
-				<option value="listening" label="싶"></option>
-				<option value="news" label="다"></option>
-			</datalist>
-	
-		</from>
-
-	</body>
-
+    </section>
+</body>
 </html>
